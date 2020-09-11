@@ -14,6 +14,8 @@ namespace EntityFrameworkCore
     {
         static async Task Main(string[] args)
         {
+            Console.WriteLine("welcome!");
+
             Console.WriteLine("Inserting students...");
             var rows = await InsertStudentsAsync();
             Console.WriteLine($"Rows affected: {rows}");
