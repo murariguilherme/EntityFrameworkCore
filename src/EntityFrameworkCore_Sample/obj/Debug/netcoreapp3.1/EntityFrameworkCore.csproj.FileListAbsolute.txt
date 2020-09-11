@@ -1,0 +1,4 @@
+C:\Projects\Github\EntityFrameworkCore\EntityFrameworkCore\bin\Debug\netcoreapp3.1\EntityFrameworkCore.exe
+C:\Projects\Github\EntityFrameworkCore\EntityFrameworkCore\obj\Debug\netcoreapp3.1\EntityFrameworkCore.csprojAssemblyReference.cache
+C:\Projects\Github\EntityFrameworkCore\EntityFrameworkCore\obj\Debug\netcoreapp3.1\EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Projects\Github\EntityFrameworkCore\EntityFrameworkCore\obj\Debug\netcoreapp3.1\EntityFrameworkCore.AssemblyInfo.cs
