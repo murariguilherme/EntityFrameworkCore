@@ -16,7 +16,9 @@ namespace EntityFrameworkCore_Sample.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data source=(localdb)\\mssqllocaldb;Initial Catalog=EFCore;Integrated Security=true");
+            optionsBuilder
+                .UseSqlServer("Data source=(localdb)\\mssqllocaldb;Initial Catalog=EFCore;Integrated Security=true")
+                .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
